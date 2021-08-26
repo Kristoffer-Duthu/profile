@@ -26,13 +26,19 @@ a {
   font-weight: 600;
   font-size: 16px;
 }
+a:hover{
+  color: gray;
+}
 
-a:hover {
-  color: black;
+.btn-green:hover {
+  background-color: gray;
+  color:white;
+
 }
 
 .img-circ {
     border-radius: 50%;
+    border: 2px dashed black;
   }
 
 .container {
@@ -41,6 +47,15 @@ a:hover {
 }
 
 .card-white {
+  background-color: #FBF7F5;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.footer {
   background-color: #FBF7F5;
   padding: 40px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
