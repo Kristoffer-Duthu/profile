@@ -100,17 +100,53 @@ i {
   .container {
     width: 700px;
   }
+
+    .projects-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    margin-bottom: 8px;
+    margin-right:  8px;
+}
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
   }
+
+  .projects-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 8px 8px;
+    margin-bottom: 8px;
+    margin-right:  8px;
+}
+
+  #skills-img {
+    width: 350px;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
+  }
+ .projects-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 8px 8px;
+    margin-bottom: 8px;
+    margin-right:  8px;
+}
+
+ #skills-img {
+    width: 250px;
+    position:  relative;
+    left: -10px;
   }
 }
 
