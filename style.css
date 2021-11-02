@@ -152,3 +152,20 @@ i {
   }
 }
 
+
+.cell i {
+  align-self: center;
+  font-size: 15px;
+  color: #DC3C18;
+  font-weight: bold;
+  animation: icon 1.5s infinite forwards;
+}
+
+@keyframes icon {
+  0%,100%{
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(3px);
+  }
+}
